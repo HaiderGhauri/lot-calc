@@ -49,7 +49,7 @@ client.on(Events.InteractionCreate, async (i) => {
 
   if (!isAllowedPair(pair)) {
     return i.reply({
-      content: `⚠️ Pair **${pair}** is not supported yet.`,
+      content: `⚠️ Pair **${pair}** is not supported.`,
       ephemeral: true
     });
   }
