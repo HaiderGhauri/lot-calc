@@ -10,7 +10,7 @@ const commands = [
       .setName('pair')
       .setDescription('Forex pair e.g. EURUSD, XAUUSD')
       .setRequired(true)
-      .setAutocomplete(true)  // 👈 ye line important hai
+      // .setAutocomplete(true)  // 👈 ye line important hai
   )
   .addNumberOption(o =>
     o.setName('balance').setDescription('Account balance').setRequired(true))
