@@ -27,7 +27,7 @@ function buildEmbed({ pair, balance, risk, sl, lots }) {
   return new EmbedBuilder()
     .setAuthor({ name: "Lot calculator" })
     .setTitle(`💹 ${pair} Lot Size Calculation`)
-    .setDescription("────────────────")
+    .setDescription("──────────────────────────────")
     .setColor(color)
     .addFields(
       { name: "Balance", value: `$${balance}`, inline: true },
